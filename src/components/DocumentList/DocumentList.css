@@ -1,0 +1,51 @@
+.documentList {
+  display: flex;
+  flex-direction: column;
+  font-family: Arial; }
+  .documentList:last-child {
+    border-bottom: 1px solid #D4D4D4; }
+  .documentList-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 616px;
+    height: 80px;
+    padding: 16px 24px;
+    border-top: 1px solid #D4D4D4;
+    border-right: 1px solid #D4D4D4;
+    border-left: 1px solid #D4D4D4; }
+  .documentList-test {
+    display: flex;
+    flex-direction: row; }
+  .documentList-titleContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; }
+  .documentList-title {
+    color: #414141;
+    font-size: 14px;
+    line-height: 20px;
+    font-style: normal;
+    font-weight: bold;
+    word-wrap: break-word; }
+  .documentList-description {
+    color: #6B6B6B;
+    font-size: 12px;
+    line-height: 20px;
+    font-style: normal;
+    font-weight: normal;
+    word-wrap: break-word; }
+  .documentList-icon {
+    margin-right: 12px; }
+
+@media all and (max-width: 375px) {
+  .documentList-container {
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    max-width: 616px;
+    height: 136px; }
+  .documentList-button {
+    width: 100%; } }
+
+/*# sourceMappingURL=DocumentList.css.map */

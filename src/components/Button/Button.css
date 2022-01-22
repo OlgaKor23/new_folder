@@ -1,0 +1,30 @@
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 120px;
+  height: 32px;
+  background: linear-gradient(#FFAE45, #E88300);
+  border: 1px solid #E88300;
+  border-radius: 4px;
+  color: #fff;
+  font-family: Arial;
+  font-size: 12px;
+  line-height: 16px;
+  word-wrap: break-word;
+  pointer: coarse; }
+  .button:hover {
+    background-color: #FFA42E; }
+  .button:active {
+    background: linear-gradient(#E88300, #FFAE45); }
+  .button:disabled {
+    background-color: #FFD8A5;
+    border: 1px solid #FFB85C; }
+  .button:focus {
+    background-color: #FFA42E; }
+
+@media all and (max-width: 375px) {
+  .button {
+    width: 100%; } }
+
+/*# sourceMappingURL=Button.css.map */
