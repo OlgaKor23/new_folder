@@ -16,7 +16,8 @@ const initialState = {
 		false,
 		false,
 		false,
-	]
+	],
+    isActive: true,
 };
 
 export interface IAction {
@@ -49,7 +50,8 @@ const reducer = (state: IState, action: IAction) => {
 					true,
 					true,
 					true,
-				]
+				],
+                isActive: false,
 			};
 
 		case EDITIONS.DELUXE:
@@ -71,8 +73,8 @@ const reducer = (state: IState, action: IAction) => {
                     false,
                     false,
                     true,
-
-				]
+				],
+                isActive: false,
 			};
 
 		case EDITIONS.ULTIMATE:
@@ -94,7 +96,8 @@ const reducer = (state: IState, action: IAction) => {
                     false,
                     false,
                     false,
-				]
+				],
+				isActive: true,
 			}
 	}
 };
